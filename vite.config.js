@@ -21,5 +21,8 @@ export default defineConfig({
   build: {
     outDir: 'public/dist',
     assetsDir: 'assets',
+    rollupOptions: {
+      input: 'resources/js/main.js',
+    },
   },
 }) 
